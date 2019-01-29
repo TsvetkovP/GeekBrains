@@ -1,0 +1,35 @@
+using System;
+
+namespace lesson1
+{
+    class MainClass
+    {
+        public static void Main(string[] args)
+        {
+
+                Console.WriteLine("Вас приветствует программа <Анкета>");
+                Console.WriteLine("Напишите ваше имя:");
+
+                string имя = Console.ReadLine();
+
+                Console.WriteLine("Напишите вашу фамилию:");
+
+                string фамилия = Console.ReadLine();
+
+                Console.WriteLine("Сколько вам лет?");
+
+                string возраст = Console.ReadLine();
+
+                Console.WriteLine("Какой у вас рост в см?");
+
+                string рост = Console.ReadLine();
+
+                Console.WriteLine("Сколько вы весите в кг?");
+
+                string вес = Console.ReadLine();
+
+                Console.WriteLine($"имя: {имя},фамилия: {фамилия},возраст: {возраст} лет,рост: {рост} см.,вес: {вес} кг.");
+            
+        }
+    }
+}
