@@ -1,0 +1,26 @@
+using System;
+
+namespace Main 
+{
+    class MainClass
+    {
+        public static void Main(string[] args)   
+
+        {
+
+            Console.WriteLine("Я могу рассчитать и вывести индекс массы тела!");
+
+            Console.WriteLine("введите ваш вес в кг:");
+
+            double m = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("введите ваш рост в м:");
+
+            double h = double.Parse(Console.ReadLine());
+
+
+            double indM = m / (h * h);
+            Console.WriteLine(indM.ToString());
+        }
+    }
+}
